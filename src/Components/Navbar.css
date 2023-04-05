@@ -1,0 +1,205 @@
+.navbar-primary {
+    display: flex;
+    background-color: #e2f4ff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-primary .left-side .ltr {
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.navbar-primary .right-side {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-primary .right-side .call-center {
+    margin-right: 10px;
+}
+
+.navbar-primary .right-side .call-center i {
+    margin-right: 10px;
+    font-size: 22px;
+    color: #0BA9FF;
+}
+
+.navbar-primary .right-side .call-center a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.navbar-primary .right-side .appointment {
+    display: flex;
+    padding: 15px 25px;
+    background: linear-gradient(90deg, rgba(86, 217, 255), rgba(11, 169, 255));
+    border: none;
+    margin-right: 90px;
+}
+
+.navbar-primary .right-side .appointment a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.navbar-container .nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 0;
+    background: rgba( 255, 255, 255, 0.5 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    /* -webkit-backdrop-filter: blur( 4px ); */
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.navbar-container .nav .logo-container img{
+    width: 50%;
+}
+
+.navbar-container .nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-container .nav ul .link{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    padding: 5px 30px;
+}
+
+.navbar-container .nav ul .link.active{
+    color: #006CFF;
+}
+
+.navbar-container .nav ul .link:hover::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #006CFF;
+    transition: .4s ease;
+}
+
+.navbar-container .nav .search-container {
+    width: 60px;
+    height: 60px;
+    margin-right: 90px;
+    background-color: #fff;
+    padding: 16px 28px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+    transition: width 500ms cubic-bezier(0.68, -0.55, 0.8, 1.55);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.navbar-container .nav .search-container.active,
+.navbar-container .nav .search-container:focus{
+    width: 350px;
+    justify-content: flex-start;
+}
+
+.navbar-container .nav .search-container.active > :is(i, input){
+    display: block;
+}
+
+.navbar-container .nav .search-container i{
+    font-size: 18px;
+}
+
+.navbar-container .nav .search-container input{
+    display: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    background-color: transparent;
+}
+
+.navbar-container .nav .search-container .fa-xmark{
+    margin-left: auto;
+    display: none;
+}
+
+.nav .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+@media (max-width: 767px) {
+    .navbar-container .nav ul {
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 1.5rem;
+        background: rgba( 255, 255, 255, 1 );
+        backdrop-filter: blur(0px);
+        /* -webkit-backdrop-filter: blur( 0px ); */
+        transition: 1s;
+    }
+
+    .navbar-container .nav .search-container{
+        display: none;
+    }
+    
+    .nav .responsive_nav {
+		transform: translateY(100vh);
+	}
+    
+    .nav .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}  
+}
+
+@media (min-width: 767px) and (max-width: 1023px){
+    .navbar-container .nav ul {
+        position: fixed;
+        top: -100vh;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        gap: 1.5rem;
+        background: rgba( 255, 255, 255, 1 );
+        backdrop-filter: blur(0px);
+        /* -webkit-backdrop-filter: blur( 0px ); */
+        transition: 1s;
+    }
+
+    .navbar-container .nav .search-container{
+        display: none;
+    }
+    
+    .nav .responsive_nav {
+		transform: translateY(100vh);
+	}
+    
+    .nav .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}    
+}

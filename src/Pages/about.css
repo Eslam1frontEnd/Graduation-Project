@@ -1,0 +1,171 @@
+.header {
+    background-image: url(../Assets/bg_3.jpg);
+    height: 760px;
+    margin-bottom: 90px;
+  }
+
+  .header .banner-container{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+}
+
+.header .banner-container .overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .6;
+    background: linear-gradient(90deg, rgba(86, 217, 255), rgba(11, 169, 255));
+}
+
+.header .banner-container .overlay .root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    margin-bottom: 30px;
+}
+
+.header .banner-container .overlay .root a{
+    display: block;
+    margin:0 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.header .banner-container .overlay h1{
+    font-size: 60px;
+}
+
+.about-us{
+    margin-bottom: 90px;
+}
+
+.about-us .card-container .card-img{
+    width: 40%;
+    background-image: url(../Assets/graph\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us .card-container .card-img img{
+    width: 50%;
+}
+
+.about-us .card-container .card-content{
+    width: 50%;
+    text-align: left;
+    padding: 30px 0 30px 140px;
+    background-color: #0ba9ff52;
+    border-radius: 0 0 0 178px;
+}
+
+.about-us .card-container .card-content a{
+    text-decoration: none;
+    background: linear-gradient(90deg,rgba(100,155,255),rgba(0,112,250));
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 25px;
+    border-radius: 15px;
+
+}
+
+.consultant{
+    flex-direction: column;
+    margin-bottom:90px;
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.consultant .head{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.consultant .row .doctor-card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+    margin-bottom: 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.consultant .row .doctor-card .doc-img{
+    width: 40%;
+    margin-top: -70px;
+    margin-bottom: 10px;
+}
+
+.recomended-serv{
+    background-image: url(../Assets/bg_2.PNG);
+    padding: 20px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: flex-end;
+}
+
+.recomended-serv .serv{
+    padding: 15px 380px 15px 40px;
+    text-align: left;
+    position: relative;
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.recomended-serv .serv::before{
+    content: "\f053";
+    font-weight: 900;
+    font-family: 'Font Awesome 6 Free';
+    color: #0062ff;
+    position: absolute;
+    top: 40%;
+    left: 10px;
+}
+
+.recomended-serv .serv h2{
+    margin-bottom: 15px;
+    color: #0062ff;
+}
+
+.recomended-serv .serv p{
+    font-size: 18px;
+    color: #4d4d4d;
+}
+
+@media (max-width: 767px){
+    .recomended-serv .serv {
+        padding: 15px 40px 15px 40px;
+    }
+
+    .consultant .row .doctor-card{
+        width: 90%;
+        margin-bottom: 90px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px){
+    .recomended-serv .serv {
+        padding: 15px 40px 15px 40px;
+    }
+
+    .consultant .row .doctor-card{
+        width: 90%;
+        margin-bottom: 90px;
+    }
+}

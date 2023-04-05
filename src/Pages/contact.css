@@ -1,0 +1,93 @@
+.main .container{
+    padding: 100px 0;
+}
+
+.main .container .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .container .contact form{
+    background-color: #fff;
+    padding: 40px 80px;
+}
+
+.main .container .contact form h1{
+    margin-bottom: 20px;
+}
+
+.main .container .contact form p{
+    margin-bottom: 40px;
+}
+
+.main .container .contact form .customer-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.input-group{
+    margin-right: 15px;
+}
+
+.input-group:last-child{
+    margin-right: 0;
+}
+
+input{
+    padding: 10px 80px 10px 20px;
+}
+
+.main .container .contact form .email{
+    width: 561px;
+    margin-bottom: 20px;
+}
+
+.main .container .contact form .email input{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main .container .contact form .phone{
+    width: 561px;
+    margin-bottom: 20px;
+}
+
+.main .container .contact form .phone input{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main .container .contact form .message-box{
+    width: 561px;
+    margin-bottom: 20px;
+}
+
+.main .container .contact form .message-box textarea{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.main .container .contact form button{
+    width: 561px;
+    padding: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #006CFF;
+    color: #fff;
+    font-size: 18px;
+}
+
+.main .container .contact .map{
+    width: 721px;
+    height: 717px;
+}

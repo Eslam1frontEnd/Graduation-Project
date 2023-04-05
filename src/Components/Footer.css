@@ -1,0 +1,49 @@
+.subscribe-container {
+    height: 330px;
+    background-image: url(../Assets/subscribe.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+}
+
+.subscribe-container .subscribe-btn {
+    padding: 13px 10px;
+}
+
+.foot-section {
+    background-color: #020F20;
+}
+
+.foot-section h1 {
+    color: #006CFF;
+}
+
+.foot-section .row .breif .logo{
+    width: 20%;
+    margin-bottom: 15px;
+}
+
+.foot-section .row .breif .logo img{
+    width: 100%;
+}
+
+.foot-section .row .breif p{
+    width: 60%;
+    font-size: 18px;
+    color: #f2f2f2;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.foot-section .row .breif .social-icons i{
+    background-color: #031732;
+    padding: 20px;
+    font-size: 22px;
+    margin-right: 10px;
+    color: #5a5a5a;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+}

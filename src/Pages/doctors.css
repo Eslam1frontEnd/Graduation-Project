@@ -1,0 +1,370 @@
+.doctor-header-secion{
+    background-image: url(../Assets/hero_1.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 760px;
+    grid-area: head;
+    border-bottom: 1px solid #000;
+}
+
+.doctor-header-secion .banner-container{
+    position: relative;
+    text-align: center;
+    color: #fff;
+    height: 100%;
+}
+
+.doctor-header-secion .banner-container .overlay{
+    position: absolute;
+    padding-top: 200px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .6;
+    background: linear-gradient(90deg, rgb(0, 0, 0), rgb(48, 48, 48));
+}
+
+.doctor-header-secion .banner-container .overlay .banner-text-sction h1{
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.doctor-header-secion .banner-container .overlay .banner-text-sction p{
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.doctor-header-secion .banner-container .overlay .submit-form{
+    justify-content: center;
+}
+
+.doctor-header-secion .banner-container .overlay .submit-form .button{
+    display: flex;
+    padding-top: 36px;
+}
+
+.main{
+    width: 65%;
+    padding: 0;
+}
+
+.doctors-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.doctors-section .card-doctor{
+    width: 33%;
+    height: 421.77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 20px;
+    background-color: #fcfcfc;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.doctors-section .card-doctor-selected{
+    width: 66%;
+    background-color: #00193A;
+}
+
+.doctors-section .card-doctor-selected .row-section .portofolio{
+    width: 40%;
+}
+
+.doctors-section .card-doctor-selected .row-section .portofolio .doc-img img{
+    width: 80%;
+}
+
+.doctors-section .card-doctor .view-btn{
+    display: none;
+}
+
+.doctors-section .card-doctor-selected .view-btn{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.doctors-section .card-doctor-selected .view-btn .button{
+    padding-right: 40px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #686868;
+    background: transparent;
+}
+
+.doctors-section .card-doctor .row-section,
+.doctors-section .card-doctor-selected .row-section{
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.doctors-section .card-doctor .row-section .portofolio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.doctors-section .card-doctor-selected .row-section .portofolio{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.doctors-section .card-doctor .row-section .portofolio .doc-img{
+    display: flex;
+    width: 80%;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.doctors-section .card-doctor-selected .row-section .portofolio .doc-img{
+    width: 50%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.doctors-section .card-doctor .row-section .portofolio .doc-img img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.doctors-section .card-doctor-selected .row-section .portofolio .doc-img img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #fff;
+}
+
+.doctors-section .card-doctor .row-section .portofolio .doc-info h2{
+    color: #000;
+}
+
+.doctors-section .card-doctor-selected .row-section .portofolio .doc-info h2{
+    color: #fff;
+}
+
+.doctors-section .card-doctor-selected .row-section .portofolio .doc-info h5{
+    font-size: 16px;
+    color: #686868;
+    letter-spacing: 1.5px;
+}
+
+.doctors-section .card-doctor .row-section .qualification{
+    display: none;
+}
+
+.doctors-section .card-doctor-selected .row-section .qualification{
+    display: block;
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 15px;
+    border-left: 1px solid #686868;
+}
+
+.doctors-section .card-doctor-selected .row-section .qualification div{
+    margin-bottom: 20px;
+}
+
+.doctors-section .card-doctor-selected .row-section .qualification div h4{
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.doctors-section .card-doctor-selected .row-section .qualification div h6, p{
+    margin-bottom: 10px;
+    font-weight: 500 !important;
+    color: #686868;
+}
+
+.doctors-section .card-doctor .book-btn{
+    display: none;
+}
+
+.doctors-section .card-doctor-selected .book-btn{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+    padding-bottom: 20px;
+}
+
+.doctors-section .card-doctor-selected .book-btn .button{
+    margin-left: 10px;
+    background: transparent;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+}
+.doctors-section .card-doctor-selected .book-btn i{
+    color: #fff;
+    font-size: 20px;
+}
+
+.side-bar{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.side-bar .search-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.side-bar .search-input label{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.side-bar .search-input input{
+    padding: 10px 80px 10px 20px;
+    box-sizing: border-box;
+}
+
+.side-bar .selector{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.side-bar .selector label{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.side-bar .selector select{
+    width: 273px;
+    padding: 10px 80px 10px 20px;
+    box-sizing: border-box;
+}
+
+.side-bar .speciality{
+    border: 1px solid #686868;
+    padding: 10px;
+}
+
+.side-bar .speciality .title{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.side-bar .speciality input{
+    padding: 10px 80px 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+.side-bar .speciality .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.side-bar .speciality .list .option{
+    margin-bottom: 10px;
+}
+
+.side-bar .speciality .list .option:last-child{
+    margin-bottom: 0;
+}
+
+.side-bar .speciality .list .option input{
+    margin-right: 8px;
+}
+
+@media (max-width: 767px){
+    .main .doctors-section .card-doctor {
+        width: 45%;
+    }
+
+    .side-bar{
+        width: 30%;
+        padding: 0;
+        padding-top: 60px;
+    }
+
+    .side-bar .search-input input{
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .side-bar .selector select {
+        width: 200px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .side-bar .speciality input {
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 8px;
+    }
+
+    .doctor-header-secion .banner-container .overlay .submit-form{
+        justify-content: space-between;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1023px){
+    .main .doctors-section .card-doctor {
+        width: 45%;
+    }
+
+    .side-bar{
+        width: 30%;
+        padding: 0;
+        padding-top: 60px;
+    }
+
+    .side-bar .search-input input{
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .side-bar .selector select {
+        width: 200px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .side-bar .speciality input {
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 8px;
+    }
+
+    .doctor-header-secion .banner-container .overlay .submit-form{
+        justify-content: space-between;
+    }
+}
